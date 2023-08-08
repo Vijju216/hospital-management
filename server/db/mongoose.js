@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+
 mongoose.Promise = global.Promise;
 
 // Change the database connection URL with yours
