@@ -19,7 +19,6 @@
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.1"
-    // ... other dependencies
   },
   "devDependencies": {
     "nodemon": "1.11.0"
