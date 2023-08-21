@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+   "publishConfig": {
+    "registry": "http://34.211.48.114:8081/repository/npm/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "sonar": "node sonar.js"
-  },
-  "publishConfig": {
-    "registry": "http://18.237.7.33:8081/repository/release/"
+    "start": "node app.js"
   },
   "engines": {
-    "node": "6.9.1"
+     "node": "6.9.1"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +37,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.9.1"
   }
 }
-
